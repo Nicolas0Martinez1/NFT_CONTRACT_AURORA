@@ -1,11 +1,11 @@
 async function main() {
     // We get the contract to deploy
-  constGreeter=await ethers.getContractFactory("NFT_CONTRACT");
-    const greeter = await Greeter.deploy("NFT MINT IMPLEMENT AURORA");
+  constNftContract=await ethers.getContractFactory("NftContract");
+    const nftContract = await NftContract.deploy("");
   
-    await greeter.deployed();
+    await nftContract.deployed();
   
-    console.log("your contract was deployed to:", greeter.address);
+    console.log("your contract was deployed to:", nftContract.address);
   }
   
   main()
