@@ -1,4 +1,4 @@
-<h1>NFT CONTRACT ERC 721 IMPLEMENTATION AURORA</h1><br>
+<h1>CONTRACT ERC 721 IMPLEMENTATION AURORA</h1><br>
 <h2>Documentation</h2>
 <ul>
   <li><a href="https://hardhat.org/tutorial">Hardhat</a></li>
